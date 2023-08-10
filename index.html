@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- @NOTE linking our CSS -->
+    <link rel="stylesheet" href="style.css"/>
+
+    <!-- @NOTE linking firebase version 8 CDNs first -->
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+
+    <!-- @NOTE initializing firebase -->
+    
+
+    <!-- @NOTE link our main.js AFTER we load initialize firebase -->
+    <script defer src="main.js"></script>
+</head>
+<body id="body2">
+    <div class="large_container">
+        <div class="blog_row"><a href="createBlog.html" id="goback" target="_blank">Submit-A-Blog!</a></div>
+        <h1>Blogs</h1>
+        <div id="blog_container">
+            
+        </div>
+    </div>
+
+</body>
+</html>

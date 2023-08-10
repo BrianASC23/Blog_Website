@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <!-- @NOTE linking our CSS -->
+    <link rel="stylesheet" href="style.css"/>
+
+    <!-- @NOTE linking firebase version 8 CDNs first -->
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+ 
+    <!-- @NOTE initializing firebase -->
+    <script defer src="init.js"></script>
+ 
+    <!-- @NOTE link our main.js AFTER we load initialize firebase -->
+   
+
+    <title>Submit Blog</title>
+</head>
+<body id="body1">
+    <div class="submit_container">
+        <h1 class="maintitle">Submit Your Blogs Here!</h1>
+
+        <div class="input_container">
+            <form>
+                <label for="title_input">Title:</label>
+                <input type="text" id="title_input">
+
+                <label for="username_input">Name:</label>
+                <input type="text" id="username_input">
+
+                <label for="content_input">Content:</label>
+                <input type="text" id="content_input">
+            </form>
+        </div>
+        
+        <button id="submit_btn">Submit</button>
+
+        <h2><a href="index.html" target="_blank">Blogs</a></h2>
+
+    </div>
+    
+</body>
+</html>
